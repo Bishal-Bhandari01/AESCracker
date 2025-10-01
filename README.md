@@ -24,7 +24,7 @@ A high-performance Python tool for brute-force decrypting AES-encrypted files us
 pip install pyAesCrypt
 ```
 ## Quick Setup
-git clone https://github.com/Bishal-Bhandari01/AESCracker.git
+git clone https://github.com/Bishal-Bhandari01/AESCracker.git <br>
 cd AESCracker
 
 ## Usage
