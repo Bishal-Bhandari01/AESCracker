@@ -3,7 +3,6 @@
 A high-performance Python tool for brute-force decrypting AES-encrypted files using wordlists. Designed specifically for CTF challenges and penetration testing scenarios where you need to recover passwords for AES-encrypted archives.
 
 ## Features
-
 - **Fast Decryption**: Optimized buffer handling for efficient file operations
 - **Progress Monitoring**: Real-time progress with attempt counts and speed metrics
 - **Error Handling**: Robust error handling for corrupted files and I/O issues
@@ -14,19 +13,18 @@ A high-performance Python tool for brute-force decrypting AES-encrypted files us
 ## Installation
 
 ### Prerequisites
-
 - Python 3.6 or higher
 - pip package manager
 
 ### Dependencies
-
 ```bash
 pip install pyAesCrypt
 ```
-## Quick Setup
-git clone https://github.com/Bishal-Bhandari01/AESCracker.git <br>
+### Quick Setup
+```bash
+git clone https://github.com/Bishal-Bhandari01/AESCracker.git
 cd AESCracker
-
+```
 ## Usage
 ```bash 
 python3 fast_crack_aes.py <encrypted_file.aes> <wordlist.txt>
@@ -72,7 +70,6 @@ python3 fast_crack_aes.py backup.zip.aes rockyou.txt decrypted_backup.txt
 - Data recovery operations
 ## Example Output
 ```bash
-
 [+] Target file: secret_backup.zip.aes
 [+] Wordlist: rockyou.txt
 [+] Output file: decrypted_backup.zip
