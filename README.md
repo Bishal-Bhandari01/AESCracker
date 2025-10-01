@@ -103,6 +103,7 @@ Works with any file type encrypted using AES-Crypt format:
 - CTF challenges and educational purposes
 - Personal data recovery (your own files)
 - Legal forensic investigations
+
 🚫 <strong>Do not use for:</strong>
 - Unauthorized access to systems
 - Illegal data recovery
